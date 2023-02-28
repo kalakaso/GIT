@@ -10,3 +10,17 @@ git add . agrega los arcichos de la carpeta
 git commit -m 'Primer commit' --  inicia  el commite con un nombre 
 
 git log  -- permite ver los cambios
+
+git log -p  -- muesstra los cambios echos en el texto y los que ya estaban 
+
+git status -- muestra si hay algun cambio
+
+git log --oneline -- una version resumida 
+
+git add --"nombre del archivo.extecion"
+
+git add . -- añade la carpeta 
+
+git reset HEAD "Nombre de los archivos " -- remueve los archivos del indice.
+
+git diff --staged -- cambios en el indice 
