@@ -24,3 +24,5 @@ git add . -- añade la carpeta
 git reset HEAD "Nombre de los archivos " -- remueve los archivos del indice.
 
 git diff --staged -- cambios en el indice 
+
+git checkout --"nombre del archivo" -- volvera al ultimo commite 
