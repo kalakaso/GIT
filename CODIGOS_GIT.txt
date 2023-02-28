@@ -3,10 +3,10 @@ git config --global user.name
 git config --global user.name
 git config -l
 
-git init
+git init -- inicia la carpeta 
 
-git add .
+git add . agrega los arcichos de la carpeta 
  
-git commit -m 'Primer commit'
+git commit -m 'Primer commit' --  inicia  el commite con un nombre 
 
-git log 
+git log  -- permite ver los cambios
