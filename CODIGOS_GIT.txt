@@ -38,6 +38,7 @@ git diff 'numero de commit' 'commite dos '  compara las diferencias entre los co
 
 Actualizando Txt desde la mac 
 
+Actualizamos test de TXT 
 
 
 
