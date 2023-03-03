@@ -9,10 +9,13 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -- genera clave ssh no e
 eval "$(ssh-agent -s)" -- inicia el agente ssh en segundo plano 
 pbcopy < ~/.ssh/id_ed25519.pub -- copia la clave ssh en tu portapapels 
 
-git init -- inicia la carpeta 
 
+git remote add origin "Direccion ssh " -- establece el repositorio remoto 
+git remote -v -- muestra el repositiorio al que esta conectado 
+
+git push -f origin main -- forza la actualizacion a la rama principal 
+git init -- inicia la carpeta 
 git add . agrega los arcichos de la carpeta 
- 
 git commit -m 'Primer commit' --  inicia  el commite con un nombre 
 
 git log  -- permite ver los cambios
