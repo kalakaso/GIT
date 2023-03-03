@@ -36,8 +36,9 @@ git rm --cached 'nombre archivo' -- borra de la ram
 git diff 'numero de commit' 'commite dos '  compara las diferencias entre los commits
 
 
+Actualizando Txt desde la mac 
 
-
+Actualizamos test de TXT 
 
 
 
